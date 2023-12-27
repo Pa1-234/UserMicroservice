@@ -74,7 +74,7 @@ def handle_error(e):
 #test api
 @app.route('/',methods=['GET'])
 def test():
-    return "Welcome to python flask usermicroservice."
+    return "Welcome to python flask ."
 
 
 # adding a user data
