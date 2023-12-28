@@ -74,7 +74,7 @@ def handle_error(e):
 #test api
 @app.route('/',methods=['GET'])
 def test():
-    return "Welcome to Python flask."
+    return "Welcome to Python."
 
 
 # adding a user data
