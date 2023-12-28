@@ -16,5 +16,6 @@ spec:
       containers:
         - name: usermicroservice
           image: pavankumarsangisetti/usermicroservice:${buildNumber}
+          imagePullPolicy: Always
           ports:
             - containerPort: 5000
