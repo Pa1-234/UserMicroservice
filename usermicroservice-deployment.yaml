@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: usermicroservice
-          image: pavankumarsangisetti/usermicroservice:latest
+          image: pavankumarsangisetti/usermicroservice:24
           imagePullPolicy: Always
           ports:
             - containerPort: 5000
