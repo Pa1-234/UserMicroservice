@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: usermicroservice
-          image: pavankumarsangisetti/usermicroservice:latest
+          image: pavankumarsangisetti/usermicroservice:${buildNumber}
           ports:
             - containerPort: 5000
