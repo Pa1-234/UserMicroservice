@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: postgres
-          image: pavankumarsangisetti/postgresdbrepo:latest
+          image: pavankumarsangisetti/postgresdbrepo:${buildNumber}
           ports:
             - containerPort: 5432
